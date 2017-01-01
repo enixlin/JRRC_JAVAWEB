@@ -1,0 +1,17 @@
+apply plugin:"war"
+
+
+repositories{
+
+mavenCentral()
+}
+
+dependencies{
+
+
+
+	compile 'org.springframework:spring-webmvc:4.+'
+	compile 'javax.servlet:jstl:1.2'
+
+}
+

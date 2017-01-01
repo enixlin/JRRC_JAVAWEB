@@ -16,7 +16,7 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 <mvc:annotation-driven></mvc:annotation-driven>
 
 
-
+ 
 <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <property name="prefix" value="/WEB-INF/view/"></property>
 <property name="suffix" value=".jsp"></property>
